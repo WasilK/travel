@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Delicious Food Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Delicious Food Blog</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to the World of Delicious Food</h2>
+        <p>Explore mouth-watering recipes and tips for healthy, wholesome meals.</p>
+    </section>
+
+    <section id="posts" class="blog-posts">
+        <h2>Featured Recipes</h2>
+        <div class="post">
+            <img src="images/food1.jpg" alt="Delicious pasta">
+            <h3>Perfect Pasta Primavera</h3>
+            <p>This fresh and colorful dish is a healthy, quick meal perfect for busy weeknights...</p>
+            <a href="readmore1.html">Read More</a>
+        </div>
+        <div class="post">
+            <img src="images/food2.webp" alt="Gourmet pizza">
+            <h3>Homemade Gourmet Pizza</h3>
+            <p>Why order out when you can make your own gourmet pizza at home? Here’s how...</p>
+            <a href="readmore2.html">Read More</a>
+        </div>
+        <div class="post">
+            <img src="images/food3.jpg" alt="Smoothie bowl">
+            <h3>Berry Smoothie Bowls</h3>
+            <p>Start your day with a refreshing and nutrient-packed smoothie bowl filled with berries...</p>
+            <a href="readmore3.html">Read More</a>
+        </div>
+    </section>
+
+    <section id="comments" class="comments">
+        <h2>Leave a Comment</h2>
+        <form id="commentForm">
+            <label for="commenterName">Name:</label>
+            <input type="text" id="commenterName" name="commenterName" required>
+
+            <label for="commentText">Comment:</label>
+            <textarea id="commentText" name="commentText" required></textarea>
+
+            <button type="submit">Post Comment</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Food Blog. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
